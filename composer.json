@@ -1,0 +1,35 @@
+{
+    "name": "snw/comingsoon",
+    "description": "Simple Comming Soon page",
+    "type": "library",
+    "license": "MIT",
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish"
+        ],
+        "post-update-cmd": [
+            "php -r \"copy('src/config/comingsoon.php', 'config/comingsoon.php');\"",
+            "php artisan vendor:publish"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Milap",
+            "email": "milap@softnweb.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "snw\\ComingSoon\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "snw\\ComingSoon\\ComingSoonServiceProvider"
+            ]
+        }
+    }
+}
