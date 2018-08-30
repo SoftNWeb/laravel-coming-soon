@@ -1,5 +1,3 @@
-#Laravel package to display Coming Soon page 
-
 ## Description
 A straightforward Coming Soon package for Laravel with Countdown timer and Email capture. 
 
