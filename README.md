@@ -1,17 +1,24 @@
 #Laravel package to display Coming Soon page 
 
 ## Description
-A straightforward Coming Soon package for Laravel. 
+A straightforward Coming Soon package for Laravel with Countdown timer and Email capture. 
 
 Just Install the package, configure .env and you are ready to go!
+
+![coming-soon-screenshot](https://softnweb.com/wp-content/uploads/2018/08/laravel-coming-soon.png "coming soon screenshot")
+
 
 
 
 ## Installation
 composer require softnweb/laravel-coming-soon
 
+
+
 ## After Installation run this command to publish file
 php artisan vendor:publish
+
+
 
 ## If you want to display the Email form
 Then run php artisan migrate
