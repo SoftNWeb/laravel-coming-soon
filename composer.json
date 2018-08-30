@@ -1,5 +1,5 @@
 {
-    "name": "snw/comingsoon",
+    "name": "softnweb/laravel-coming-soon",
     "description": "Simple Comming Soon page",
     "type": "library",
     "license": "MIT",
@@ -14,8 +14,8 @@
     },
     "authors": [
         {
-            "name": "Milap",
-            "email": "milap@softnweb.in"
+            "name": "Soft 'n' Web",
+            "email": "info@softnweb.in"
         }
     ],
     "minimum-stability": "dev",
