@@ -2,7 +2,7 @@
 
 return [
     'snw_enable_email_form' => env('OFFLINE_SHOW_EMAIL_FORM', false),
-    'snw_send_email_to' => env('OFFLINE_SEND_EMAIL_TO','info@softnweb.in',),
+    'snw_send_email_to' => env('OFFLINE_SEND_EMAIL_TO','info@softnweb.in'),
     'snw_test_mode' => env('OFFLINE_ENABLE', true),
     'snw_year'=> env('OFFLINE_YEAR', '2018'),
     'snw_month'=> env('OFFLINE_MONTH', '8'),
