@@ -22,13 +22,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "snw\\ComingSoon\\": "src/"
+            "softnweb\\laravel-coming-soon\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "snw\\ComingSoon\\ComingSoonServiceProvider"
+                "softnweb\\laravel-coming-soon\\ComingSoonServiceProvider"
             ]
         }
     }
