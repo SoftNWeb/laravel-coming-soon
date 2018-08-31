@@ -1,6 +1,7 @@
 {
     "name": "softnweb/laravel-coming-soon",
     "description": "Simple Comming Soon page",
+    "keywords": ["coming-soon"],
     "type": "library",
     "license": "MIT",
     "scripts": {
@@ -21,7 +22,7 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {
+        "psr-4": { 
             "softnweb\\laravel-coming-soon\\": "src/"
         }
     },
