@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "softnweb\\laravel-coming-soon\\ComingSoonServiceProvider"
+                "snw\\ComingSoon\\ComingSoonServiceProvider"
             ]
         }
     }
