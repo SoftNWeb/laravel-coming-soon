@@ -29,12 +29,22 @@
                 </form>
                 @endif
                 <ul class="links">
-                    <li><a href="{{$value['snw_facebook']}}">Facebook</a></li>
-                    <li><a href="{{$value['snw_twitter']}}">twitter</a></li>
-                    <li><a href="{{$value['snw_instagram']}}">instagram</a></li>
-                    <li><a href="{{$value['snw_github']}}">github</a></li>
-                    <li><a href="mailto:{{$value['snw_mail']}}">mail</a></li>
-</ul>
+                    @if (strlen($value['snw_facebook']))
+                        <li><a href="{{$value['snw_facebook']}}">Facebook</a></li>
+                    @endif
+                    @if (strlen($value['snw_twitter']))
+                        <li><a href="{{$value['snw_twitter']}}">Twitter</a></li>
+                    @endif
+                    @if (strlen($value['snw_instagram']))
+                        <li><a href="{{$value['snw_instagram']}}">Instagram</a></li>
+                    @endif
+                    @if (strlen($value['snw_github']))
+                        <li><a href="{{$value['snw_github']}}">Github</a></li>
+                    @endif
+                    @if (strlen($value['snw_mail']))
+                        <li><a href="mailto:{{$value['snw_mail']}}">Email</a></li>
+                    @endif
+                </ul>
             </div>
         </div>
     </body>
