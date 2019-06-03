@@ -1,6 +1,6 @@
 <?php
 
-namespace snw\ComingSoon\Models;
+namespace Softnweb\ComingSoon\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

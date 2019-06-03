@@ -1,6 +1,6 @@
 <?php
 
-namespace snw\ComingSoon\Mail;
+namespace Softnweb\ComingSoon\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;

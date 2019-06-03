@@ -1,11 +1,11 @@
 <?php
 
-namespace snw\ComingSoon\Http\Controllers;
+namespace Softnweb\ComingSoon\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use snw\ComingSoon\Models\ComingSoon;
-use snw\ComingSoon\Mail\ComingSoonMailable;
+use Softnweb\ComingSoon\Models\ComingSoon;
+use Softnweb\ComingSoon\Mail\ComingSoonMailable;
 use Illuminate\Support\Facades\Mail;
 
 class ComingSoonController extends Controller

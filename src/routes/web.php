@@ -1,7 +1,7 @@
 <?php 
 use Carbon\Carbon;
 
-Route::group(['namespace'=>'snw\ComingSoon\Http\Controllers'], function(){
+Route::group(['namespace'=>'Softnweb\ComingSoon\Http\Controllers'], function(){
     
     $value = config('comingsoon.snw_test_mode');
     

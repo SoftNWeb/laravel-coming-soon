@@ -1,6 +1,6 @@
 <?php
 
-namespace snw\ComingSoon;
+namespace Softnweb\ComingSoon;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,7 +8,7 @@ class ComingSoonServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-
+  
     // $this->publishes([
     //     __DIR__.'/views' => base_path('resources/views/comingsoon'),
     // ]);
