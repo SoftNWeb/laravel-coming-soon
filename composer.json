@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": { 
-            "Softnweb\\ComingSoon\\": "vendor/softnweb/laravel-coming-soon/src/"
+            "Softnweb\\ComingSoon\\": "src/"
         }
     }
 }
