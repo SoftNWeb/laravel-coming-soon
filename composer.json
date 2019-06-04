@@ -21,11 +21,6 @@
     ],
     "minimum-stability": "dev",
     "require": {},
-    "autoload": {
-        "psr-4": {
-            "Softnweb\\ComingSoon\\": "vendor/softnweb/laravel-coming-soon/src/"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
@@ -33,6 +28,9 @@
             ]
         }
     },
-
-    
+    "autoload": {
+        "psr-4": { 
+            "Softnweb\\ComingSoon\\": "vendor/softnweb/laravel-coming-soon/src/"
+        }
+    }
 }
