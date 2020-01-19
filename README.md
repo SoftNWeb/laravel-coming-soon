@@ -36,6 +36,7 @@ You will have to add the following to your .env and set values accordingly
 - **OFFLINE_MINUTES=** {60} _(Countdown minutes)_
 - **OFFLINE_SECONDS=** {60} _(Countdown seconds)_
 - **OFFLINE_FACEBOOK=** {http://facebook.com/softnweb}
+- **OFFLINE_TWITTER=** {#}
 - **OFFLINE_INSTAGRAM=** {#}
 - **OFFLINE_GITHUB=** {#}
 - **OFFLINE_MAIL=** {info@softnweb.in}
